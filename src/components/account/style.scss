@@ -1,0 +1,35 @@
+.account {
+  height: calc(100% - var(--height-nav-panel) * 2);
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+
+  & > h3 {
+    color: var(--button-color);
+  }
+
+  .account-delivery {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--dark-gray);
+    & > ul {
+      margin-bottom: 5px;
+    }
+  }
+
+  .account-orders {
+    padding: 5px;
+    flex: 1;
+    border: 1px solid var(--dark-gray);
+    border-radius: 5px;
+    margin: 10px 0px;
+    overflow-y: auto;
+  }
+
+  & > a {
+    margin: 10px 0;
+  }
+  & > a:last-child {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.customButton {
+  display: block;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  user-select: none;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+
+  box-sizing: content-box;
+  transition: background-color 0.1s ease-in-out;
+  color: #ffff;
+
+  &.loading {
+    background-color: rgb(153, 80, 21);
+  }
+
+  &:active {
+    background-color: rgb(153, 80, 21);
+  }
+}

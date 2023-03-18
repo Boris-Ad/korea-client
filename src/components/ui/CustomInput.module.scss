@@ -1,0 +1,25 @@
+.customInput {
+  margin-bottom: 7px;
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 7px 5px;
+    line-height: 1.5;
+    border-radius: 5px;
+    background-color: inherit;
+    color: #ffff;
+    border: 1px solid var(--dark-gray);
+    font-size: 1rem;
+    outline: none;
+  }
+
+  .error{
+    margin-top: 3px;
+    color: var(--warning-color);
+  }
+
+  &.hidden {
+    display: none;
+  }
+}

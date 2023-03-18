@@ -1,0 +1,22 @@
+.history-orders {
+  padding: 0 10px;
+  overflow-y: auto;
+
+
+  & > ul {
+    margin-bottom: 5px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid var(--dark-gray);
+
+    li:first-child {
+      color: var(--button-color);
+    }
+    li:not(:first-child) {
+      padding-left: 10px;
+    }
+    .status {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.on_sale-list {
+  max-height: 300px;
+  overflow-y: auto;
+
+  & > h3 {
+    font-size: 1.1rem;
+  }
+  & > ul {
+    padding: 10px 0 0 0;
+
+    & > li {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & > button {
+        padding: 5px;
+      }
+    }
+  }
+}

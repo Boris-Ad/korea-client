@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 1px solid var(--dark-gray);
+  border-bottom: 1px solid var(--dark-gray);
+
+  .radio-box-one {
+    display: flex;
+    gap: 1rem;
+  }
+  .radio-box-two {
+    display: flex;
+    gap: 1rem;
+  }
+}

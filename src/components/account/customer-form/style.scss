@@ -1,0 +1,16 @@
+.edit-form {
+  padding: 10px;
+  & form > h3 {
+    margin: 5px 0;
+  }
+
+  .button-group {
+    display: flex;
+    gap: 1rem;
+ 
+    & > a {
+      width: max-content;
+      background-color: var(--warning-color);
+    }
+  }
+}
