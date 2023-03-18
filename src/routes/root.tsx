@@ -11,7 +11,7 @@ const RootPage: React.FC = () => {
   let tg = window.Telegram.WebApp;
 
   React.useEffect(() => {
-    const tg_id = tg.initDataUnsafe.user?.id || '761362383';
+    const tg_id = tg.initDataUnsafe.user?.id;
     if (tg_id) {
       setId(tg_id.toString());
     }
