@@ -5,8 +5,8 @@
   border-bottom: 1px solid var(--dark-gray);
 
   img {
-    width: 130px;
-    height: 140px;
+    min-width: 130px;
+    min-height: 140px;
     border-radius: 5px;
     object-fit: cover;
   }
