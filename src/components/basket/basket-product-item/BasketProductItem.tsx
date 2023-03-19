@@ -43,7 +43,7 @@ const BasketProductItem: React.FC<BasketProductItemProps> = ({ productFromBasket
 
   return (
     <div className="product-item">
-      <img src={'./images/' + itemProduct?.filename} alt={itemProduct?.name} />
+      <img src={'https://server.1333670-cw25746.tw1.ru/images/' + itemProduct?.filename} alt={itemProduct?.name} />
       <div className="content">
         <IoTrashOutline className="trash" onClick={() => removeOneProduct(productFromBasket.id)} />
         <h3>{itemProduct?.name}</h3>
