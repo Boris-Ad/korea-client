@@ -32,7 +32,7 @@ const RootSlide: React.FC<RootSlideProps> = ({ product }) => {
 
   return (
     <div className="root-slide">
-      <img src={'https://server.1321786-cw25746.tw1.ru/images/' + product.filename} alt={product.name} />
+      <img src={'https://server.1333670-cw25746.tw1.ru/images/' + product.filename} alt={product.name} />
       <div className="context">
         <div className="text">
           <h3>{product.name}</h3>
@@ -43,7 +43,7 @@ const RootSlide: React.FC<RootSlideProps> = ({ product }) => {
           ))}
         </div>
         <CustomButton onClick={setProductInBasket}>В корзину</CustomButton>
-      </div>
+      </div> 
     </div>
   );
 };

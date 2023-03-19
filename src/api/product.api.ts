@@ -6,8 +6,10 @@ export const addProduct = async (file: File, name: string, packages: IPackages) 
   formData.append('banner', file);
   formData.append('name', name);
   formData.append('packages', JSON.stringify(packages));
+  const res = await api.post('product', { body: formData }).json();
+  console.log(res);
 
-  return await api.post('product', { body: formData }).json();
+  return res;
 };
 
 export const getProducts = async (): Promise<Array<IProduct>> => {
