@@ -3,6 +3,7 @@ import React from 'react';
 import NavPanel from '../components/nav-panel/NavPanel';
 import Modal from '../components/modal/Modal';
 import { useCustomer, useModal } from '../store';
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 const RootPage: React.FC = () => {
   const setId = useCustomer(state => state.setId);
@@ -24,6 +25,8 @@ const RootPage: React.FC = () => {
     <>
       <Outlet />
       <NavPanel />
+      <TawkMessengerReact propertyId="6428292f31ebfa0fe7f5e8bf" widgetId="1gsue1p9s" />
+
       {modal && <Modal />}
     </>
   );
